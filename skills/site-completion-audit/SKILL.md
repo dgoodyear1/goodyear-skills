@@ -22,14 +22,14 @@ Then: write what changed to project memory, and offer a recurring schedule.
 
 ## Phase 0 — Load or build the site profile
 
-Look for `profiles/<domain>.md`. Profiles that ship with this skill:
+Look for `profiles/<domain>.md`. Profile files live in `profiles/`:
 
 | Profile | What it is |
 |---|---|
-| `goodyearfoundation.org.md` | Nonprofit, CADASIL health information. Full audit Aug 2026, 33 findings, 24-step runbook. |
-| `wyostays.com.md` | For-profit short-term-rental management, Sheridan WY. Triage Aug 2026. |
-| `ateasehms.org.md` | Veterans/first-responder nonprofit, client engagement. Triage Aug 2026. |
-| `_template.md` | Start here for a new site. |
+| `_template.md` | Start here. Copy it to `profiles/<domain>.md` for each site you audit. |
+
+No real site profiles ship with this skill. Build your own as you go — the profile is
+what turns every re-run into a diff instead of a fresh wall of text.
 
 **If no profile exists, build one first** by running the infrastructure detection in `references/infra-detection.md`, then pick a site type from `references/site-types.md`. The site type decides half the checklist — a lodging business and a health nonprofit fail in completely different ways, and auditing one against the other's checklist wastes everyone's time.
 
