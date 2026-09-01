@@ -1,0 +1,15 @@
+{
+  "name": "goodyear-skills",
+  "owner": { "name": "Dalton Goodyear", "url": "https://daltongoodyear.com" },
+  "metadata": {
+    "description": "Operating systems built while running real businesses, packaged as Claude skills. Working tools, not tutorials.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "goodyear-skills",
+      "source": "./",
+      "description": "Three working skills: migrate off Lovable into real ownership, audit a website for the gap between what it promises and what it does, and stop AI-written prose from sounding like AI."
+    }
+  ]
+}
