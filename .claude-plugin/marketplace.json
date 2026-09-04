@@ -1,6 +1,9 @@
 {
   "name": "goodyear-skills",
-  "owner": { "name": "Dalton Goodyear", "url": "https://daltongoodyear.com" },
+  "owner": {
+    "name": "Dalton Goodyear",
+    "url": "https://daltongoodyear.com"
+  },
   "metadata": {
     "description": "Operating systems built while running real businesses, packaged as Claude skills. Working tools, not tutorials.",
     "version": "1.0.0"
@@ -9,7 +12,7 @@
     {
       "name": "goodyear-skills",
       "source": "./",
-      "description": "Three working skills: migrate off Lovable into real ownership, audit a website for the gap between what it promises and what it does, and stop AI-written prose from sounding like AI."
+      "description": "Four working skills: migrate off Lovable into real ownership, audit a website for the gap between what it promises and what it does, stop AI-written prose from sounding like AI, and audit every credit file you and your business entities have for provable reporting errors."
     }
   ]
 }
