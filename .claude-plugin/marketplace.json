@@ -12,7 +12,7 @@
     {
       "name": "goodyear-skills",
       "source": "./",
-      "description": "Four working skills: migrate off Lovable into real ownership, audit a website for the gap between what it promises and what it does, stop AI-written prose from sounding like AI, and audit every credit file you and your business entities have for provable reporting errors."
+      "description": "Six working skills: migrate off Lovable into real ownership, audit a website for the gap between what it promises and what it does, stop AI-written prose from sounding like AI, audit every credit file you and your business entities have for provable reporting errors, control who can post as your business across social and admin accounts, and decide how much authority to give an AI agent using a spend cap instead of a permission list."
     }
   ]
 }
