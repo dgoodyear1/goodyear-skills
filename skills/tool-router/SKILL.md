@@ -1,6 +1,6 @@
 ---
 name: tool-router
-description: Route Dalton Goodyear work to the right room before acting. Use when he asks where to work, starts a task, names Claude Code, Cowork, Grok Bot, grok.com, Tesla, API keys, or when the job is lease, cart, form, blog, research, onboard, inbox, or supplies.
+description: Route Dalton Goodyear work to the right room before acting. Use when he asks where to work, starts a task, names Claude Code, Cowork, Grok Bot, grok.com, Tesla, API keys, or when the job is lease, cart, form, blog, research, onboard, inbox, or supplies. Also use before adding or editing a GitHub Actions workflow, cron, or CI step.
 ---
 
 # Tool router (Wyo / Living Room / Foundation)
@@ -32,6 +32,17 @@ Solo operator. Cleaners do not get AI. No extra Claude seats as fake departments
 - Dump GROK-BOT-SYSTEM-CONTEXT into every model
 - Use API keys for these jobs (second bill, no browser)
 - Auto-buy or auto-send
+
+## GitHub Actions (dgoodyear1)
+
+- Account cap: 3,000 minutes/month, shared across all repos. Resets the 1st.
+- Only wyoming-direct-stays is allowed a real CI farm, and even there it's path-filtered. See that repo's `.github/CI.md`.
+- Do not add `.github/workflows` to microsites (smalltownbnb, sheridanstays, wherewyomingstays, wyomingsbeststays, sheridansbeststays, the-main-exchange) unless Dalton asks.
+- No cron more frequent than weekly.
+- No Playwright / Lighthouse / `npm ci` running on every push.
+- New workflow requires: trigger, path filter, estimated minutes/month, and his yes.
+- Content-only commits may use `[skip ci]`.
+- He clicks merge. He sets billing budgets. Agents do not raise GitHub spend.
 
 ## First reply pattern
 
