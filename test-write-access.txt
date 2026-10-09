@@ -1,1 +1,1 @@
-write-probe 2026-10-07
+write probe 2026-10-08 20:14 MDT
