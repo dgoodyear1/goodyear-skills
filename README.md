@@ -1,6 +1,6 @@
 # goodyear-skills
 
-Six Claude skills pulled out of actually running things. Each one exists because
+Eight Claude skills pulled out of actually running things. Each one exists because
 a real problem needed solving twice, which is the only good reason to build a system.
 
 Free. MIT. No signup.
@@ -13,6 +13,8 @@ Free. MIT. No signup.
 | **credit-file-audit** | Audits every credit file you and your business entities have — personal plus each LLC, DBA, or sole prop — finds provable reporting errors, and generates targeted dispute letters. Ships a standard-library tool that computes FCRA fall-off dates and flags duplicate or mismatched tradelines. | [Why multi-entity owners should audit their credit files](https://daltongoodyear.com/journal/audit-credit-files-multiple-business-entities) |
 | **account-access-playbook** | Controls who can post as a business across Facebook Page, Instagram (via a Meta Business Portfolio), Eventbrite-style ticketing platforms, and your own site admin — the real access tiers, the invite flow's dead ends, and the fix for a genuine Meta connected-asset removal deadlock. | [Who can post as your business right now?](https://daltongoodyear.com/journal/who-can-post-as-your-business-access-playbook) |
 | **agent-employee-framework** | Decides how much authority to give an AI agent — Claude, Grok, or any agentic tool — by naming it before configuring it, setting a spend cap instead of a permission list, defining five categories that always escalate, and running a numbered-list batch-approval cadence. | [Give your AI agent a budget, not a leash](https://daltongoodyear.com/journal/give-ai-agent-budget-not-a-leash) |
+| **thread-handoff** | Packs a long chat into a short baton any model can pick up: Claude, GPT or Grok. The same block works in each, so a thread that has grown too long can move without losing the work. | |
+| **tool-router** | Routes a task to the right room before any work starts: which AI tool, which app, and which steps stay with the human. Written for one solo operator's stack; fork it and swap in your own. | |
 
 ## Install
 
